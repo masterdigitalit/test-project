@@ -11,7 +11,7 @@ function showQuote() {
 		3: document.querySelectorAll(".points span")[2],
 	};
 
-	const timer = setInterval(showNew, 1500);
+	const timer = setInterval(showNew, 15000);
 	function showNew() {
 		quote[el].style.display = "none";
 		point[el].classList.remove("active");
