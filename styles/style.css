@@ -214,7 +214,7 @@ textarea {
         color: #ffffff;
     }
 
-    .burger{
+    .burger {
         display: none;
     }
 
@@ -573,7 +573,7 @@ textarea {
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
-    
+
     header {
         z-index: 10000;
         background-color: #fff;
@@ -651,7 +651,7 @@ textarea {
         color: #ffffff;
     }
 
-    .burger{
+    .burger {
         display: none;
     }
 
@@ -701,7 +701,7 @@ textarea {
         justify-content: center;
         row-gap: 10%;
         column-gap: 10%;
-  
+
     }
 
     main .delivery div {
@@ -720,10 +720,12 @@ textarea {
         width: 100%;
         margin-bottom: 100px;
     }
-    .steps  .box-1, .box-2{
-      padding: 5px;
+
+    .steps .box-1,
+    .box-2 {
+        padding: 5px;
     }
-    
+
 
     .steps div .title {
         margin-bottom: 15px;
@@ -778,7 +780,7 @@ textarea {
         border-radius: 50%;
         background-color: #858585;
         width: 30px;
-        height:30px;
+        height: 30px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -1043,7 +1045,7 @@ textarea {
 
     header a .logo {
         width: clamp(40px, 20vw, 140px);
-        height:auto;
+        height: auto;
     }
 
     header a .logo img {
@@ -1064,7 +1066,7 @@ textarea {
         display: none;
     }
 
-    
+
 
 
 
@@ -1078,11 +1080,11 @@ textarea {
         cursor: pointer;
         display: block;
     }
-    
+
     .burger input {
         display: none;
     }
-    
+
     .burger span {
         display: block;
         position: absolute;
@@ -1095,44 +1097,45 @@ textarea {
         transform: rotate(0deg);
         transition: .25s ease-in-out;
     }
-    
+
     .burger span:nth-of-type(1) {
         top: 0px;
         transform-origin: left center;
     }
-    
+
     .burger span:nth-of-type(2) {
         top: 50%;
         transform: translateY(-50%);
         transform-origin: left center;
     }
-    
+
     .burger span:nth-of-type(3) {
         top: 100%;
         transform-origin: left center;
         transform: translateY(-100%);
     }
-    
+
     .burger input:checked~span:nth-of-type(1) {
         transform: rotate(45deg);
         top: 0px;
         left: 0px;
     }
-    
+
     .burger input:checked~span:nth-of-type(2) {
         width: 0%;
         opacity: 0;
     }
-    
+
     .burger input:checked~span:nth-of-type(3) {
         transform: rotate(-45deg);
-    
+
     }
 
-    .bar_panel{
+    .bar_panel {
         display: none;
     }
-    .bar_panel.active{
+
+    .bar_panel.active {
         display: flex;
         width: 100vw;
         height: calc(100vh - 50px);
@@ -1144,14 +1147,16 @@ textarea {
         justify-content: center;
         align-items: center;
     }
-    .bar_panel.active nav{
+
+    .bar_panel.active nav {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
     }
-    .bar_panel.active nav a{
+
+    .bar_panel.active nav a {
         margin-bottom: 20px;
-        
+
     }
 
     .bar_panel.active nav a {
@@ -1234,7 +1239,7 @@ textarea {
     main .delivery div {
         height: 25vh;
         width: 100%;
-        border-radius: 50px;
+        border-radius: 30px;
         background-color: #DDDDDD;
         padding: 20px 25px;
         font-family: Montaga;
@@ -1247,10 +1252,12 @@ textarea {
         width: 100%;
         margin-bottom: 100px;
     }
-    .steps  .box-1, .box-2{
-      padding: 5px;
+
+    .steps .box-1,
+    .box-2 {
+        padding: 5px;
     }
-    
+
 
     .steps div .title {
         margin-bottom: 15px;
@@ -1259,6 +1266,12 @@ textarea {
         font-weight: 600;
         line-height: 35.2px;
         text-align: left;
+
+    }
+
+    .steps .third-line .box-3 .title {
+        display: flex;
+        justify-content: center;
     }
 
     .steps div .description {
@@ -1304,7 +1317,7 @@ textarea {
         border-radius: 50%;
         background-color: #858585;
         width: 30px;
-        height:30px;
+        height: 30px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -1325,6 +1338,7 @@ textarea {
         display: flex;
         justify-content: center;
     }
+
     .steps div .description {
         color: #6F7680;
         font-size: 14px;
@@ -1537,7 +1551,7 @@ textarea {
 
     .icons img {
         width: auto;
-        height:    clamp(10px, 16vw, 25px);
+        height: clamp(10px, 16vw, 25px);
         margin-right: 20px;
     }
 
