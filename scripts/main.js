@@ -48,3 +48,19 @@ function setQuestionPage(Page) {
 	buttons[PageEl].classList.add("active");
 	lists[PageEl].classList.add("active");
 }
+
+
+let defaultBarShow = false
+function showBar(){
+	console.log(document.querySelectorAll(".bar_panel"))
+		if(defaultBarShow){
+			document.querySelectorAll(".bar_panel")[0].classList.remove('active')
+			defaultBarShow = false
+			return
+		}
+		else{
+			document.querySelectorAll(".bar_panel")[0].classList.add('active')
+			defaultBarShow = true
+			return
+		}
+}
