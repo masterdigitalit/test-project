@@ -264,7 +264,7 @@ textarea {
     }
 
     main .delivery div {
-        height: 20vh;
+        height: 25vh;
         width: 100%;
         border-radius: 50px;
         background-color: #DDDDDD;
@@ -693,19 +693,19 @@ textarea {
 
     main .delivery {
         display: grid;
-        grid-template-columns: repeat(2, 40%);
+        grid-template-columns: repeat(2, 30%);
         width: 100%;
-        margin-bottom: 60px;
+        margin-bottom: 120px;
         align-items: center;
         align-content: space-between;
         justify-content: center;
-        row-gap: 10%;
+        row-gap: 15%;
         column-gap: 10%;
 
     }
 
     main .delivery div {
-        height: 15vh;
+        height: 25vh;
         width: 100%;
         border-radius: 50px;
         background-color: #DDDDDD;
@@ -1228,9 +1228,9 @@ textarea {
 
     main .delivery {
         display: grid;
-        grid-template-columns: repeat(2, 45%);
+        grid-template-columns: repeat(2, 40%);
         width: 100%;
-        justify-content: space-between;
+        justify-content: center;
         margin-bottom: 60px;
         column-gap: calc(5%);
         row-gap: 5%;
@@ -1239,7 +1239,7 @@ textarea {
     main .delivery div {
         height: 25vh;
         width: 100%;
-        border-radius: 30px;
+        border-radius: 50px;
         background-color: #DDDDDD;
         padding: 20px 25px;
         font-family: Montaga;
