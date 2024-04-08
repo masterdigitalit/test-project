@@ -143,7 +143,7 @@ textarea {
         position: fixed;
         height: 70px;
         width: 100%;
-        padding: 15px 25px;
+        padding: 15px 70px;
     }
 
     header .header-container {
@@ -219,7 +219,7 @@ textarea {
     }
 
     main {
-        padding: 170px 40px 0px 40px;
+        padding: 170px 70px 0px 70px;
         flex: 1 0 auto;
         width: 100%;
         height: auto;
@@ -426,6 +426,7 @@ textarea {
         display: flex;
         flex-wrap: wrap;
         margin-bottom: 100px;
+        justify-content: center;
     }
 
     .questions .title {
@@ -442,10 +443,10 @@ textarea {
     .questions .buttons {
         margin-top: 30px;
         display: flex;
-        width: 100%;
+        width: 60vw;
         margin-bottom: 40px;
-        justify-content: space-evenly;
-        padding: 0px 40px;
+        justify-content: space-between;
+
     }
 
     .questions .buttons button.active {
@@ -481,7 +482,7 @@ textarea {
         box-shadow: 0px 1px 2px 0px #0E182440;
         border-radius: 8px;
         margin-bottom: 12px;
-        width: 90%;
+        width: 60vw;
         display: flex;
     }
 
@@ -510,6 +511,14 @@ textarea {
         display: flex;
         width: 100%;
         justify-content: space-between;
+    }
+
+    details>summary .icon img{
+        width: 20px;
+    }
+
+    details[open]>summary .icon img {
+        transform: rotate(180deg);
     }
 
     details[open]>summary {
@@ -580,7 +589,7 @@ textarea {
         position: fixed;
         height: 50px;
         width: 100%;
-        padding: 8px 15px;
+        padding: 8px 30px;
     }
 
     header .header-container {
@@ -656,7 +665,7 @@ textarea {
     }
 
     main {
-        padding: 60px 20px 0px 20px;
+        padding: 60px 30px 0px 30px;
         flex: 1 0 auto;
         width: 100%;
         height: auto;
@@ -875,13 +884,14 @@ textarea {
         display: flex;
         flex-wrap: wrap;
         margin-bottom: 100px;
+        justify-content: center;
     }
 
     .questions .title {
         font-family: Inter;
         font-size: 21px;
         font-weight: 600;
-        line-height: 30px;
+        line-height: 49.5px;
         width: 100%;
         display: flex;
         justify-content: center;
@@ -891,9 +901,9 @@ textarea {
     .questions .buttons {
         margin-top: 30px;
         display: flex;
-        width: 100%;
+        width: 60vw;
         margin-bottom: 40px;
-        justify-content: space-around;
+        justify-content: space-between;
 
     }
 
@@ -930,7 +940,7 @@ textarea {
         box-shadow: 0px 1px 2px 0px #0E182440;
         border-radius: 8px;
         margin-bottom: 12px;
-        width: 90%;
+        width: 70vw;
         display: flex;
     }
 
@@ -959,6 +969,14 @@ textarea {
         display: flex;
         width: 100%;
         justify-content: space-between;
+    }
+
+    details>summary .icon img{
+        width: 20px;
+    }
+
+    details[open]>summary .icon img {
+        transform: rotate(180deg);
     }
 
     details[open]>summary {
@@ -1024,7 +1042,7 @@ textarea {
         position: fixed;
         height: 50px;
         width: 100%;
-        padding: 8px 15px;
+        padding: 8px 30px;
     }
 
     header .header-container {
@@ -1191,7 +1209,7 @@ textarea {
 
 
     main {
-        padding: 60px 20px 0px 20px;
+        padding: 60px 30px 0px 30px;
         flex: 1 0 auto;
         width: 100%;
         height: auto;
@@ -1246,6 +1264,9 @@ textarea {
         font-size: 14px;
         font-weight: 400;
         line-height: 34.5px;
+        font-family: Montaga;
+
+
     }
 
     .steps {
@@ -1427,11 +1448,12 @@ textarea {
         display: flex;
         flex-wrap: wrap;
         margin-bottom: 100px;
+        justify-content: center;
     }
 
     .questions .title {
         font-family: Inter;
-        font-size: 21px;
+        font-size: clamp(12px, 4vw, 18px);
         font-weight: 600;
         line-height: 30px;
         width: 100%;
@@ -1440,12 +1462,17 @@ textarea {
 
     }
 
+ 
+
+
+    
+
     .questions .buttons {
         margin-top: 30px;
         display: flex;
-        width: 100%;
+        width: 80vw;
         margin-bottom: 40px;
-        justify-content: space-around;
+        justify-content: space-between;
 
     }
 
@@ -1459,7 +1486,7 @@ textarea {
         padding: 5px;
         border-radius: 8px;
         font-family: Inter;
-        font-size: 15px;
+        font-size: clamp(8px, 3vw, 15px);
         font-weight: 600;
         line-height: 16px;
         text-align: left;
@@ -1482,12 +1509,12 @@ textarea {
         box-shadow: 0px 1px 2px 0px #0E182440;
         border-radius: 8px;
         margin-bottom: 12px;
-        width: 90%;
+        width: 80vw;
         display: flex;
     }
 
     .questions .list .el details {
-        padding: 10px 15px;
+        padding: 5px 8px;
         display: flex;
     }
 
@@ -1498,7 +1525,7 @@ textarea {
     details>summary {
         list-style-type: none;
         font-family: Inter;
-        font-size: 14px;
+        font-size: clamp(6px, 3vw, 12px);
         font-weight: 600;
         line-height: 21.6px;
     }
@@ -1516,9 +1543,12 @@ textarea {
     details[open]>summary {
         margin-bottom: 8px;
     }
+    details>summary .icon img{
+        width: 20px;
+    }
 
-    details[open]>summary .icon {
-        transform: rotate(90deg);
+    details[open]>summary .icon img {
+        transform: rotate(180deg);
     }
 
     footer {
