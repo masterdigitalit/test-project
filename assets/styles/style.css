@@ -275,7 +275,8 @@ textarea {
         font-weight: 400;
         line-height: 34.5px;
     }
-    .stepsMobile{
+
+    .stepsMobile {
         display: none;
     }
 
@@ -726,7 +727,8 @@ textarea {
         font-weight: 400;
         line-height: 34.5px;
     }
-    .stepsMobile{
+
+    .stepsMobile {
         display: none;
     }
 
@@ -1275,7 +1277,8 @@ textarea {
 
 
     }
-    .stepsMobile{
+
+    .stepsMobile {
         display: flex;
         padding: 0px 30px 0px 30px;
         width: 100%;
@@ -1315,11 +1318,15 @@ textarea {
         flex-wrap: wrap;
         align-content: stretch;
     }
-    .box-1,.box-2, .box-3{
+
+    .box-1,
+    .box-2,
+    .box-3 {
         height: 33.3333%;
         margin-bottom: 45px;
     }
-    .box-3{
+
+    .box-3 {
         margin: 0;
     }
 
@@ -1340,11 +1347,11 @@ textarea {
     }
 
     .stepsMobile .second-line {
-    display: flex;
-    align-items: center;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    justify-content: space-between;
+        display: flex;
+        align-items: center;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: space-between;
     }
 
     .second-line span {
@@ -1360,7 +1367,7 @@ textarea {
     }
 
     .line {
-        height: calc(100% / 2 - (  60px));
+        height: calc(100% / 2 - (60px));
         width: 3px;
         background-color: #858585;
     }
