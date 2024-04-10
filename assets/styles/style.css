@@ -224,13 +224,14 @@ textarea {
     }
 
     main {
-        padding: 170px 70px 0px 70px;
+        padding: 170px 0px 0px 0px;
         flex: 1 0 auto;
         width: 100%;
         height: auto;
     }
 
     main .big-title {
+        padding: 0px 70px;
         width: 100%;
         display: flex;
         height: auto;
@@ -257,6 +258,7 @@ textarea {
         align-items: center;
         flex-direction: column;
         margin-bottom: 150px;
+        padding: 0px 70px;
     }
 
     main .delivery {
@@ -266,6 +268,7 @@ textarea {
         justify-content: space-between;
         margin-bottom: 150px;
         column-gap: calc(8% / 3);
+        padding: 0px 70px;
     }
 
     main .delivery div {
@@ -285,6 +288,7 @@ textarea {
     }
 
     .steps {
+        padding: 0px 70px;
         width: 100%;
         margin-bottom: 150px;
     }
@@ -436,6 +440,7 @@ textarea {
         flex-wrap: wrap;
         margin-bottom: 150px;
         justify-content: center;
+        padding: 0px 70px;
     }
 
     .questions .title {
@@ -672,7 +677,8 @@ textarea {
     }
 
     main {
-        padding: 60px 30px 0px 30px;
+        padding: 60px 00px 0px 0px;
+
         flex: 1 0 auto;
         width: 100%;
         height: auto;
@@ -690,6 +696,7 @@ textarea {
         align-items: center;
         flex-direction: column;
         margin-bottom: 50px;
+        padding: 0px 30px;
     }
 
     main .small-title {
@@ -705,6 +712,7 @@ textarea {
         align-items: center;
         flex-direction: column;
         margin-bottom: 60px;
+        padding: 0px 30px;
     }
 
     main .delivery {
@@ -717,6 +725,7 @@ textarea {
         justify-content: center;
         row-gap: 15%;
         column-gap: 10%;
+        padding: 0px 30px;
 
     }
 
@@ -737,6 +746,7 @@ textarea {
     }
 
     .steps {
+        padding: 0px 30px;
         width: 100%;
         margin-bottom: 150px;
     }
@@ -896,6 +906,7 @@ textarea {
         flex-wrap: wrap;
         margin-bottom: 100px;
         justify-content: center;
+        padding: 0px 30px;
     }
 
     .questions .title {
@@ -1249,13 +1260,15 @@ textarea {
         display: flex;
         height: auto;
         font-family: Montserrat;
-        font-size: 14px;
+        font-size: clamp(8px, 3vw, 18px);
+
         font-weight: 400;
         line-height: 27px;
         text-align: center;
         align-items: center;
         flex-direction: column;
         margin-bottom: 150px;
+
     }
 
     main .delivery {
