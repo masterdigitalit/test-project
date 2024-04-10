@@ -1020,8 +1020,8 @@
          display: flex;
          height: auto;
          font-family: Montserrat;
-         font-size: clamp(8px, 3vw, 18px);
-         font-weight: 400;
+         font-size: clamp(8px, 3.3vw, 18px);
+         font-weight: 600;
          line-height: 27px;
          text-align: center;
          align-items: center;
