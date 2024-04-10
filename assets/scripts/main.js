@@ -54,6 +54,8 @@ function showBar() {
 	console.log(document.querySelectorAll(".bar_panel"));
 	if (defaultBarShow) {
 		document.querySelectorAll(".bar_panel")[0].classList.remove("active");
+		console.log(document.querySelectorAll(".burger input"))
+		document.querySelectorAll(".burger input")[0].checked = false
 		defaultBarShow = false;
 		return;
 	} else {

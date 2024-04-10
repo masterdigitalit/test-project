@@ -1277,7 +1277,7 @@ textarea {
         grid-template-columns: repeat(2, 40%);
         width: 100%;
         justify-content: center;
-        margin-bottom: 60px;
+        margin-bottom: 150px;
         column-gap: calc(5%);
         row-gap: 5%;
     }
