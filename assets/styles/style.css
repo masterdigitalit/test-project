@@ -268,19 +268,48 @@ textarea {
         justify-content: space-between;
         margin-bottom: 150px;
         column-gap: calc(8% / 3);
-        padding: 0px 70px;
+        height: 25vh;
+        padding: 0 70px;
+
     }
 
-    main .delivery div {
-        height: 25vh;
+    main .delivery .point {
+        font-size: 48px;
         width: 100%;
-        border-radius: 50px;
-        background-color: #DDDDDD;
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 10px;
+        color: #50505D;
+        height: 45%;
+        align-items: flex-end;
+        padding-bottom: 10px;
+    }
+
+    main .delivery .item {
         padding: 20px 25px;
+        height: 25vh;
+        border-radius: 50px;
+        display: flex;
+        flex-wrap: wrap;
+
+        align-content: center;
+        justify-content: center;
+        width: 100%;
+
+        background-color: #DDDDDD;
+    }
+
+    main .delivery .description {
+        height: 55%;
+        text-align: center;
+
+
+
         font-family: "Open Sans", sans-serif;
-        font-size: 28px;
-        font-weight: 400;
-        line-height: 34.5px;
+        font-size: 20px;
+        font-weight: 500;
+        display: flex;
+
     }
 
     .stepsMobile {
@@ -684,7 +713,7 @@ textarea {
         flex-direction: column;
         margin-bottom: 50px;
         padding: 0px 30px 0px 30px;
-    
+
     }
 
     main .small-title {
@@ -716,16 +745,42 @@ textarea {
         padding: 0px 30px;
     }
 
-    main .delivery div {
-        height: 25vh;
+
+
+
+    main .delivery .point {
+        font-size: 40px;
         width: 100%;
-        border-radius: 50px;
-        background-color: #DDDDDD;
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 10px;
+        color: #50505D;
+        height: 45%;
+        align-items: flex-end;
+        padding-bottom: 10px;
+    }
+
+    main .delivery .item {
         padding: 20px 25px;
+        height: 20vh;
+        border-radius: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        width: 100%;
+        background-color: #DDDDDD;
+    }
+
+    main .delivery .description {
+        height: 55%;
+        text-align: center;
         font-family: "Open Sans", sans-serif;
-        font-size: 20px;
-        font-weight: 400;
-        line-height: 34.5px;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 22px;
+        display: flex;
+
     }
 
     .stepsMobile {
@@ -1220,7 +1275,7 @@ textarea {
         flex-direction: column;
         margin-bottom: 50px;
         padding: 0px 30px 0px 30px;
-    
+
     }
 
     main .small-title {
@@ -1242,24 +1297,49 @@ textarea {
     main .delivery {
         padding: 0px 30px 0px 30px;
         display: grid;
-        grid-template-columns: repeat(2, 40%);
+        grid-template-columns: repeat(2, 45%);
         width: 100%;
-        justify-content: center;
+        justify-content: space-around;
         margin-bottom: 150px;
         column-gap: calc(5%);
         row-gap: 5%;
     }
 
-    main .delivery div {
-        height: 20vh;
+
+
+    main .delivery .point {
+        font-size: 30px;
         width: 100%;
-        border-radius: 50px;
-        background-color: #DDDDDD;
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 10px;
+        color: #50505D;
+        height: 45%;
+        align-items: flex-end;
+        padding-bottom: 10px;
+    }
+
+    main .delivery .item {
         padding: 20px 25px;
+        height: 25vh;
+        border-radius: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        width: 100%;
+        background-color: #DDDDDD;
+    }
+
+    main .delivery .description {
+        height: 55%;
+        text-align: center;
         font-family: "Open Sans", sans-serif;
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 34.5px;
+        font-size: clamp(12px, 3.3vw, 18px);
+        font-weight: 500;
+        line-height: 18px;
+        display: flex;
+
     }
 
     .stepsMobile {
