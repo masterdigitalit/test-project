@@ -231,18 +231,18 @@ textarea {
     }
 
     main .big-title {
-        padding: 0px 70px;
         width: 100%;
         display: flex;
         height: auto;
         font-family: Montserrat;
-        font-size: 50px;
+        font-size: clamp(40px, 5vw, 55px);
         font-weight: 700;
-        line-height: 78.02px;
+        line-height: clamp(56px, 5vw, 64px);
         text-align: center;
         align-items: center;
         flex-direction: column;
         margin-bottom: 60px;
+        padding: 0px 70px 0px 70px;
     }
 
     main .small-title {
@@ -665,7 +665,7 @@ textarea {
     }
 
     main {
-        padding: 60px 00px 0px 0px;
+        padding: 80px 00px 0px 0px;
         flex: 1 0 auto;
         width: 100%;
         height: auto;
@@ -676,14 +676,15 @@ textarea {
         display: flex;
         height: auto;
         font-family: Montserrat;
-        font-size: 27px;
+        font-size: clamp(32px, 5vw, 38px);
         font-weight: 700;
-        line-height: 27px;
+        line-height: clamp(30px, 5vw, 36px);
         text-align: center;
         align-items: center;
         flex-direction: column;
         margin-bottom: 50px;
-        padding: 0px 30px;
+        padding: 0px 30px 0px 30px;
+    
     }
 
     main .small-title {
@@ -1211,14 +1212,15 @@ textarea {
         display: flex;
         height: auto;
         font-family: Montserrat;
-        font-size: 27px;
+        font-size: clamp(25px, 5vw, 32px);
         font-weight: 700;
-        line-height: 31px;
+        line-height: clamp(28px, 5vw, 32px);
         text-align: center;
         align-items: center;
         flex-direction: column;
         margin-bottom: 50px;
         padding: 0px 30px 0px 30px;
+    
     }
 
     main .small-title {
