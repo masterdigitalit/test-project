@@ -35,6 +35,9 @@ body {
     min-height: 100vh;
     line-height: 1;
     text-rendering: optimizeSpeed;
+    display: flex;
+
+    flex-direction: column;
 }
 
 img,
